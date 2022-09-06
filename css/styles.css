@@ -1,0 +1,409 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #00001d !important; }
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  height: 100px;
+  border-bottom: 1px solid white;
+  position: sticky;
+  top: 0;
+  padding-top: 20px;
+  backdrop-filter: blur(2px);
+  z-index: 2; }
+  nav ul {
+    list-style: none; }
+    nav ul li {
+      display: inline-block;
+      margin-top: 15px; }
+    nav ul a {
+      text-decoration: none;
+      color: white;
+      margin-left: 25px;
+      padding: 10px; }
+      nav ul a :hover {
+        text-transform: underline white 1px solid;
+        background-color: rgba(20, 14, 46, 0.521);
+        border-radius: 15px;
+        border: 1px white solid;
+        padding: 9px;
+        color: white !important; }
+  nav img {
+    height: 65px; }
+
+/* Index */
+.headerindex {
+  background-image: url(../img/fondo.jpg);
+  height: 800px;
+  width: 100%;
+  border-bottom: 1px solid white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+  .headerindex .desc {
+    display: flex;
+    color: white;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: flex-start;
+    margin-bottom: 50px; }
+    .headerindex .desc p {
+      border-bottom: 1px solid white;
+      backdrop-filter: blur(2px);
+      text-align: center; }
+  .headerindex .infomain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
+    .headerindex .infomain .info {
+      display: flex;
+      align-items: center;
+      margin-bottom: 50px;
+      background-color: rgba(20, 14, 46, 0.521);
+      border-radius: 15px;
+      border: 1px solid white;
+      padding: 10px;
+      justify-content: center;
+      backdrop-filter: blur(2px);
+      width: 70vw; }
+      .headerindex .infomain .info p {
+        color: white !important;
+        margin-left: 15px;
+        text-align: center;
+        font-size: 20px; }
+
+.modelos__caja--h3 {
+  color: white;
+  text-align: center;
+  padding: 10px 0px;
+  box-shadow: rgba(255, 255, 255, 0.151) 0px 4px 6px -1px, rgba(255, 255, 255, 0.315) 0px 2px 4px -1px;
+  margin-bottom: 20px; }
+
+/* Productos */
+.headerproductos {
+  background-image: url(../img/fondoproductos.jpeg);
+  width: 100%;
+  border-bottom: 1px solid white;
+  background-repeat: repeat;
+  border-bottom: 1px solid white;
+  background-position: center; }
+  .headerproductos .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5rem;
+    padding-top: 2rem;
+    gap: 1rem;
+    text-align: center;
+    color: white; }
+    .headerproductos .container h1 {
+      padding: 10px;
+      margin-right: 100px;
+      background-color: rgba(20, 14, 46, 0.521);
+      border-radius: 15px;
+      border: 1px white solid;
+      align-items: center;
+      justify-content: center; }
+    .headerproductos .container h2 {
+      font-weight: bold;
+      border-bottom: 1px solid white;
+      display: inline-block;
+      margin-top: 5px; }
+    .headerproductos .container .modelo {
+      width: 250px;
+      color: black;
+      border-radius: 15px;
+      border: white solid 1px;
+      padding: 1rem 1rem;
+      color: white;
+      margin-right: 20px;
+      backdrop-filter: blur(3px);
+      background-color: rgba(20, 14, 46, 0.521); }
+      .headerproductos .container .modelo img {
+        width: 200px; }
+
+.productosextra {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 2rem;
+  gap: 1rem;
+  text-align: center;
+  background-image: url(../img/fondoproductosex.jpg);
+  background-repeat: repeat;
+  background-position: center;
+  box-shadow: rgba(255, 255, 255, 0.151) 0px 4px 6px -1px, rgba(255, 255, 255, 0.315) 0px 2px 4px -1px; }
+  .productosextra h1 {
+    padding-right: 40px;
+    margin-right: 100px;
+    color: white; }
+  .productosextra h2 {
+    font-weight: bold;
+    border-bottom: 1px solid white;
+    display: inline-block;
+    margin-top: 5px;
+    color: white; }
+  .productosextra .modelo2 {
+    color: white;
+    width: 250px;
+    border-radius: 15px;
+    border: white solid 1px;
+    padding: 1rem 1rem;
+    color: white;
+    margin-right: 20px;
+    background-color: rgba(20, 14, 46, 0.521);
+    backdrop-filter: blur(2px);
+    margin-bottom: 15px; }
+    .productosextra .modelo2 img {
+      width: 200px; }
+
+/* Envios */
+.headerenvios {
+  background-image: url(../img/viacargo.jpg);
+  width: 100%;
+  border-bottom: 1px solid white;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 800px; }
+  .headerenvios .containerenvios {
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    margin-top: 50px;
+    align-items: center; }
+    .headerenvios .containerenvios .transporte {
+      border-radius: 15px;
+      border: 1px solid white;
+      padding: 20px;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      backdrop-filter: blur(3px); }
+      .headerenvios .containerenvios .transporte h2 {
+        margin-top: 20px; }
+        .headerenvios .containerenvios .transporte h2 a {
+          text-decoration: none;
+          color: white;
+          border-top: 1px solid white;
+          border-bottom: 1px solid white; }
+          .headerenvios .containerenvios .transporte h2 a :hover {
+            background-color: rgba(107, 107, 107, 0.35); }
+    .headerenvios .containerenvios .envioinfo {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .headerenvios .containerenvios .envioinfo h1 {
+        margin-bottom: 10px; }
+
+/* Reclamos */
+.headerreclamos {
+  background-image: url(../img/reclamosfondo.jpg);
+  height: 800px;
+  width: 100%;
+  border-bottom: 1px solid white;
+  color: white; }
+  .headerreclamos h1 {
+    text-align: center;
+    margin-top: 20px; }
+  .headerreclamos p {
+    text-align: center;
+    margin-bottom: 20px; }
+  .headerreclamos .formulario {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.39);
+    font-size: 20px; }
+    .headerreclamos .formulario label {
+      margin: 0px 25px; }
+    .headerreclamos .formulario input {
+      margin-right: 20px;
+      background-color: rgba(0, 0, 0, 0.281);
+      color: white; }
+    .headerreclamos .formulario select {
+      background-color: rgba(0, 0, 0, 0.281);
+      color: white; }
+      .headerreclamos .formulario select option {
+        background-color: rgba(0, 0, 0, 0.281);
+        color: white; }
+    .headerreclamos .formulario ::placeholder {
+      background-color: rgba(0, 0, 0, 0.281);
+      color: white; }
+    .headerreclamos .formulario legend {
+      font-size: 27px;
+      margin-bottom: 20px;
+      font-weight: bold; }
+    .headerreclamos .formulario .btnsbox {
+      display: flex;
+      justify-content: space-evenly;
+      margin: 10px 0px; }
+      .headerreclamos .formulario .btnsbox .btns {
+        padding: 7px; }
+        .headerreclamos .formulario .btnsbox .btns :hover {
+          background-color: rgba(128, 128, 128, 0.568); }
+
+/* Envios */
+.headercontacto {
+  background-image: url(../img/fondocontacto.jpg);
+  height: 800px;
+  width: 100%;
+  border-bottom: 1px solid white; }
+  .headercontacto .entrada {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 70px; }
+    .headercontacto .entrada .imgigfb {
+      display: flex;
+      justify-content: center;
+      gap: 10rem;
+      margin-top: 20px; }
+      .headercontacto .entrada .imgigfb .facebooklogo {
+        height: 46px; }
+      .headercontacto .entrada .imgigfb .instagramlogo {
+        height: 50px; }
+    .headercontacto .entrada a {
+      color: white; }
+    .headercontacto .entrada .igfb {
+      flex-direction: row;
+      display: flex;
+      gap: 2rem;
+      margin-top: 1rem; }
+      .headercontacto .entrada .igfb h2 {
+        font-size: 20px; }
+  .headercontacto .formulario {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.39);
+    font-size: 20px;
+    color: white;
+    margin-top: 30px; }
+    .headercontacto .formulario legend {
+      font-size: 27px;
+      margin-bottom: 20px;
+      font-weight: bold;
+      margin-left: 10px; }
+    .headercontacto .formulario label {
+      margin: 0px 25px; }
+    .headercontacto .formulario input {
+      margin-right: 20px;
+      background-color: rgba(0, 0, 0, 0.281);
+      color: white;
+      padding: 3px; }
+    .headercontacto .formulario select {
+      background-color: rgba(0, 0, 0, 0.281);
+      color: white; }
+      .headercontacto .formulario select option {
+        background-color: rgba(0, 0, 0, 0.281);
+        color: white; }
+    .headercontacto .formulario ::placeholder {
+      background-color: rgba(0, 0, 0, 0.281);
+      color: white; }
+    .headercontacto .formulario .textarea {
+      display: flex;
+      align-items: center; }
+      .headercontacto .formulario .textarea textarea {
+        margin-top: 15px;
+        margin-right: 25px;
+        background-color: rgba(0, 0, 0, 0.568);
+        color: white; }
+    .headercontacto .formulario .btn {
+      display: flex;
+      justify-content: center;
+      padding: 10px; }
+      .headercontacto .formulario .btn input {
+        padding: 10px; }
+        .headercontacto .formulario .btn input :hover {
+          background-color: rgba(128, 128, 128, 0.568); }
+
+/* Footer */
+footer .btnmenu {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px !important; }
+  footer .btnmenu a {
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 10px;
+    color: white !important; }
+    footer .btnmenu a :hover {
+      background-color: rgba(102, 102, 102, 0.521); }
+
+footer .derechos {
+  border-top: 1px solid white;
+  margin-top: 10px !important;
+  text-align: center;
+  color: white !important;
+  padding-top: 6px !important; }
+
+/* Media Querys */
+@media screen and (max-width: 768px) {
+  nav ul a {
+    text-decoration: none;
+    color: white;
+    margin-left: 5px;
+    padding: 7px;
+    font-size: 13px; }
+    nav ul a :hover {
+      text-transform: underline white 1px solid;
+      background-color: rgba(20, 14, 46, 0.521);
+      border-radius: 15px;
+      border: 1px white solid;
+      padding: 6px; }
+  nav img {
+    height: 50px;
+    margin-left: 30px; }
+  .desc p {
+    font-size: 13px; }
+  .headerindex .info {
+    width: 80vw;
+    height: 100px; }
+    .headerindex .info p {
+      font-size: 15px; } }
+
+@media screen and (max-width: 1280px) {
+  .headerproductos .container {
+    flex-direction: column; }
+    .headerproductos .container h1 {
+      margin-bottom: 50px;
+      margin-right: 15px; }
+    .headerproductos .container h2 {
+      margin-bottom: 20px; }
+    .headerproductos .container img {
+      border: 1px solid white; }
+  .productosextra {
+    flex-direction: column;
+    margin: 0px; }
+    .productosextra h1 {
+      padding-right: 0px;
+      margin-right: 0px;
+      color: white; }
+    .productosextra h2 {
+      margin-bottom: 20px;
+      color: white; }
+    .productosextra img {
+      border: 1px solid white; }
+  .headerenvios {
+    height: auto; }
+    .headerenvios .containerenvios {
+      flex-direction: column;
+      gap: 2rem;
+      margin-bottom: 20px; }
+  .entrada h1 {
+    font-size: 25px; } }
